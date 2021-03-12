@@ -219,7 +219,9 @@ color:white;
 }
 /*rates
 /*head
-
+a #out{
+color:black;
+}
  </style>
 
  
@@ -246,7 +248,7 @@ color:white;
  
  
  
- <span id="account1">My Account</span><span id="account"> signout  </span>   
+ <span id="account1">My Account</span><span id="account"><a href="logout.jsp" id="out" style="color:black"> signout</a>  </span>   
    
  </div>
  </div>
